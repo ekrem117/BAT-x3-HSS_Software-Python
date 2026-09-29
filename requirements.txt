@@ -1,0 +1,8 @@
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyserial>=3.5
+ultralytics>=8.3.0
+
+# Istege bagli: tools/ altindaki kumanda araclari icin
+# pynput>=1.7      # tools/manual_wasd.py, manual_analog_wasd.py
+# pygame>=2.5      # tools/manual_gamepad.py, gamepad_probe.py

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Calisma zamani ciktilari
+logs/
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Isletim sistemi
+Thumbs.db
+.DS_Store
+
+# Model dosyalari
+models/*.pt
+
+# Gelistiriciye ozel yerel ayarlar
+config/local_settings.py

@@ -1,0 +1,12 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# ByteTrack tracker defaults for mode="track"
+# Docs: https://docs.ultralytics.com/modes/track
+
+tracker_type: bytetrack # (str) Tracker backend: bytetrack
+track_high_thresh: 0.35    # varsayilan 0.5 — dusuk guvenli tespitleri de esle
+track_low_thresh: 0.05     # varsayilan 0.1
+new_track_thresh: 0.50     # varsayilan 0.6 — yeni iz acmayi zorlastir
+track_buffer: 60           # varsayilan 30 — 10 Hz'de 6 saniye tolerans
+match_thresh: 0.90         # varsayilan 0.8 — daha gevsek IoU eslestirme
+fuse_score: True # (bool) Fuse detection score with motion/IoU for matching; stabilizes weak detections
