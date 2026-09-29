@@ -3,6 +3,7 @@
 TEKNOFEST 2026 Çelik Kubbe Hava Savunma Sistemleri yarışması için geliştirilen otonom taret yazılımı. Kamera görüntüsünden hedefleri tespit eder, takip eder, dost/düşman ayrımı yapar ve Arduino kontrollü pan-tilt taretini manuel ya da otonom olarak yönlendirir.
 
 Bu depo sistemin Python tarafıdır. Operatör arayüzü (C#) ve taret firmware'i (Arduino) ayrı projelerdir; bu yazılımla UDP ve seri port üzerinden haberleşir.
+Operatör arayüzü: [ekrem117/BAT-x3-HSS-GUI](https://github.com/ekrem117/BAT-x3-HSS-GUI)
 
 ## Özellikler
 
